@@ -1,9 +1,3 @@
 #!/bin/sh
-dnf --assumeyes install boost-devel cmake Coin3 Coin3-devel desktop-file-utils doxygen \
-    eigen3-devel freeimage-devel freetype freetype-devel gcc gettext git libspnav-devel \
-    libXmu-devel med med-devel mesa-libGLU-devel ode-devel opencascade-devel \
-    opencv-devel openmpi-devel pcl-devel pyside2-tools python3 python3-devel \
-    python3-matplotlib python3-pivy python3-pyside2-devel qt5-qtsvg-devel \
-    qt5-qttools-static qt-devel \
-    smesh-devel SoQt-devel swig tbb-devel vtk xerces-c xerces-c-devel
+dnf --assumeyes install boost-devel Coin4-devel eigen3-devel freeimage-devel fmt-devel libglvnd-devel libicu-devel libspnav-devel libXmu-devel med-devel mesa-libEGL-devel mesa-libGLU-devel netgen-mesher-devel netgen-mesher-devel-private ninja-build opencascade-devel openmpi-devel python3 python3-devel python3-lark python3-matplotlib python3-pivy python3-pybind11 python3-pyside6-devel python3-shiboken6-devel pyside6-tools qt6-qttools-static swig qt6-qtsvg-devel vtk-devel xerces-c-devel yaml-cpp-devel
 
