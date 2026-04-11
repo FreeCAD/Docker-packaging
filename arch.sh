@@ -1,7 +1,3 @@
 #!/bin/sh
-pacman --noconfirm --sync boost boost-libs cmake coin curl desktop-file-utils doxygen \
-    eigen gc gcc-fortran git glew gnu-free-fonts guile hicolor-icon-theme jsoncpp \
-    libspnav libtool make med opencascade openmpi pyside2 pyside2-tools \
-    python-matplotlib python-netcdf4 python-pivy qt5-svg qt5-tools \
-    shared-mime-info shiboken2 swig texinfo xerces-c
+pacman --noconfirm --sync boost boost-libs cmake coin curl desktop-file-utils doxygen eigen fast_float gcc gcc-fortran git glew gnu-free-fonts guile hicolor-icon-theme jsoncpp libspnav libtool make med ninja nlohmann-json opencascade openmpi pybind11 pyside6 pyside6-tools python-matplotlib python-netcdf4 python-pivy qt6-svg qt6-tools shared-mime-info shiboken6 swig texinfo vtk xerces-c yaml-cpp
 
